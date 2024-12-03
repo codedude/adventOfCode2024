@@ -16,9 +16,13 @@ func run(args []string) int {
 	// fmt.Printf("Day1.1: %d\n", solution)
 	// solution = solutions.Day1_2()
 	// fmt.Printf("Day1.2: %d\n", solution)
-	solution := solutions.Day2_1()
-	fmt.Printf("Day2.1: %d\n", solution)
-	solution = solutions.Day2_2()
-	fmt.Printf("Day2.2: %d\n", solution)
+	// solution := solutions.Day2_1()
+	// fmt.Printf("Day2.1: %d\n", solution)
+	// solution = solutions.Day2_2()
+	// fmt.Printf("Day2.2: %d\n", solution)
+	solution := solutions.Day3_1()
+	fmt.Printf("Day3.1: %d\n", solution)
+	solution = solutions.Day3_2()
+	fmt.Printf("Day3.2: %d\n", solution)
 	return 0
 }

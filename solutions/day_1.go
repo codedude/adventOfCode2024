@@ -11,7 +11,7 @@ import (
 )
 
 func Day1_1() int {
-	data, _ := internal.ReadFileLines("resources/day_1_1")
+	data, _ := internal.ReadFileLines("resources/day_1")
 	columns := [2][]int{}
 	for _, v := range data {
 		numbers := strings.Split(v, "   ")
