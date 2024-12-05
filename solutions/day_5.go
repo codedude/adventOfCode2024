@@ -125,7 +125,7 @@ func sortIncorrectUpdates(rulesTree map[int][]int, updates [][]int, incorrectUpd
 				} else {
 					idx := slices.Index(rulesTree[n], updates[ui][j])
 					if idx == -1 { // no path to the next, go further
-						continue
+						break
 					} else { // We found a path, continue if we found an other one more recent
 						lastIdInsert = iToInsert + 1
 						continue
