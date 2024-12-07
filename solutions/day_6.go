@@ -7,7 +7,6 @@ import (
 	"aoc/internal"
 )
 
-// soluce : 41
 type MapCell int
 
 const (

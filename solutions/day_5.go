@@ -10,8 +10,6 @@ import (
 	"strings"
 )
 
-// soluce : 61, 53, 29 = 143
-
 func getInput() ([][2]int, [][]int) {
 	data, _ := internal.ReadFileLinesWithBlanks("resources/day_5")
 	rules := make([][2]int, 0, 1024)
