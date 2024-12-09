@@ -12,9 +12,9 @@ func main() {
 }
 
 func run(args []string) int {
-	solution := solutions.Day7_1()
+	solution := solutions.Day8_1()
 	fmt.Printf("1st part: %d\n", solution)
-	solution = solutions.Day7_2()
+	solution = solutions.Day8_2()
 	fmt.Printf("2nd part: %d\n", solution)
 
 	return 0
