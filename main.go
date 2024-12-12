@@ -4,6 +4,7 @@ import (
 	"aoc/solutions"
 	"fmt"
 	"os"
+	"time"
 )
 
 func main() {
@@ -12,10 +13,13 @@ func main() {
 }
 
 func run(args []string) int {
-	solution := solutions.Day10_1()
-	fmt.Printf("1st part: %d\n", solution)
-	solution = solutions.Day10_2()
-	fmt.Printf("2nd part: %d\n", solution)
-
+	start := time.Now()
+	solution := solutions.Day11_1()
+	elapsed := time.Since(start)
+	fmt.Printf("1st part: %d in %dus\n", solution, elapsed.Microseconds())
+	start = time.Now()
+	solution = solutions.Day11_2()
+	elapsed = time.Since(start)
+	fmt.Printf("2nd part: %d in %dus\n", solution, elapsed.Microseconds())
 	return 0
 }
